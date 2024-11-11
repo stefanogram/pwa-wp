@@ -226,7 +226,7 @@ jobs:
       fail-fast: false
       matrix:
         coverage: [false]
-        php: ['7.3', '7.2', '7.1']
+        php: ['7.3', '7.2']
         wp: ['latest']
         phpunit: ['7']
         include:
@@ -260,8 +260,8 @@ jobs:
             coverage: true
             phpunit: '9.3'
 
-          - php: '7.0'
-            wp: '6.3'
+          - php: '7.2'
+            wp: '6.6'
             coverage: false
             phpunit: '6'
 
