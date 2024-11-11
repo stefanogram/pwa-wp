@@ -11,7 +11,7 @@
  * Description:       Feature plugin to bring Progressive Web App (PWA) capabilities to Core
  * Requires at least: 6.6
  * Requires PHP:      7.2
- * Version:           0.8.2
+ * Version:           0.8.3-alpha
  * Author:            PWA Plugin Contributors
  * Author URI:        https://github.com/GoogleChromeLabs/pwa-wp/graphs/contributors
  * Text Domain:       pwa
@@ -19,7 +19,7 @@
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-define( 'PWA_VERSION', '0.8.2' );
+define( 'PWA_VERSION', '0.8.3-alpha' );
 define( 'PWA_PLUGIN_FILE', __FILE__ );
 define( 'PWA_PLUGIN_DIR', __DIR__ );
 define( 'PWA_WORKBOX_VERSION', json_decode( file_get_contents( PWA_PLUGIN_DIR . '/package.json' ), true )['devDependencies']['workbox-cli'] ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents,PHPCompatibility.Syntax.NewFunctionArrayDereferencing.Found -- Replaced with version literal build.
