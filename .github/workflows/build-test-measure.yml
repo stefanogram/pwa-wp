@@ -114,7 +114,7 @@ jobs:
           github.event.pull_request.user.login == 'dependabot[bot]' )
         uses: ataylorme/eslint-annotate-action@3.0.0
         with:
-          repo-token: '${{ secrets.GITHUB_TOKEN }}'
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
           report-json: 'lint-js-report.json'
 
   #-----------------------------------------------------------------------------------------------------------------------
