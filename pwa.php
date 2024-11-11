@@ -6,15 +6,17 @@
  * @license      GPL-2.0+
  *
  * @wordpress-plugin
- * Plugin Name: PWA
- * Plugin URI:  https://github.com/GoogleChromeLabs/pwa-wp
- * Description: Feature plugin to bring Progressive Web App (PWA) capabilities to Core
- * Version:     0.8.2-alpha
- * Author:      PWA Plugin Contributors
- * Author URI:  https://github.com/GoogleChromeLabs/pwa-wp/graphs/contributors
- * Text Domain: pwa
- * License:     GPL-2.0+
- * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+ * Plugin Name:       PWA
+ * Plugin URI:        https://github.com/GoogleChromeLabs/pwa-wp
+ * Description:       Feature plugin to bring Progressive Web App (PWA) capabilities to Core
+ * Requires at least: 6.6
+ * Requires PHP:      7.2
+ * Version:           0.8.2-alpha
+ * Author:            PWA Plugin Contributors
+ * Author URI:        https://github.com/GoogleChromeLabs/pwa-wp/graphs/contributors
+ * Text Domain:       pwa
+ * License:           GPL-2.0+
+ * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  */
 
 define( 'PWA_VERSION', '0.8.2-alpha' );
