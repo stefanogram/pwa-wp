@@ -350,3 +350,4 @@ jobs:
           file: ${{ env.WP_CORE_DIR }}/src/wp-content/plugins/pwa/build/logs/clover.xml
           flags: php,unit
           fail_ci_if_error: true
+          token: ${{ secrets.CODECOV_TOKEN }}
